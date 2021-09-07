@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section */
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.li-inline li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+.li-inline li a{
+    text-decoration: none;
+}
+.ml{
+ margin-left: 20px;
+}
+.font{
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px; 
+    color: black;
+}
+.header{
+height: 800px;
+background-image: linear-gradient(to right,#FFFFFF , #EDFAFE);
+}
+.footer-container{
+
+  
+}
+.header-flex{
+display: flex;
+padding-top: 20px;
+}
+.header-flex .flex-items-1{
+flex:1
+}
+.header-flex .flex-items-2{
+flex: 1;
+text-align: center;
+}
+.header-flex .flex-items-3{
+flex: 1;
+text-align: end;
+}
+.header-flex .flex-items-1 ul li a,.header-flex .flex-items-3 ul li a{
+    color: #686C75;
+    font-family: 'Kaisei HarunoUmi', serif;
+   font-size: 14px;
+}
+.header-flex .flex-items-2 span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-flex-2{
+    display: flex;
+}
+.header-flex-2 .flex-items-1{
+    flex:4;
+    margin-top: 150px;
+}
+.header-flex-2 .flex-items-2{
+    flex:5;
+    margin-top: 20px;
+}
+.header-flex-2 .flex-items-2 .img{
+    border: 3px;
+    width: 450px;
+   height: 620px;
+   border-top-left-radius: 220px!important;
+   border-top-right-radius: 220px;
+border-width: 4px;
+   border-style: solid;
+   border-image: linear-gradient(to right, darkblue, darkorchid) -1}
