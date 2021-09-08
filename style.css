@@ -472,3 +472,32 @@ margin-top: 50px;
         display: inline-block;
         margin-left: 20px;
     }
+
+    /* section -4 */
+ .sec-4 .items-1{
+     text-align: center;
+     margin: 70px;
+ }
+ .sec-4 .items-1 .title{
+     display: inline-block;
+    transform: translateY(10px);
+ }
+ .sec-4 .items-2{
+text-align: center;
+display: flex;
+justify-content: space-between;
+ }
+ .sec-4 .items-2 .flex-items-1{
+text-align: center;
+ }
+ .sec-4 .items-2 .flex-items-1 ul li{
+    list-style-type: none;
+ }
+
+ .sec-4 .items-2 .flex-items-1 a{
+    text-decoration: none;
+    color: #CECECE;
+ }
+ .sec-4 .items-2 .flex-items-1 h5{
+    font-size: 25px;
+ }
